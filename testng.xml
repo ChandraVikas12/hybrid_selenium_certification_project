@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <parameter name = "browser" value ="chrome"></parameter>
+   <parameter name = "url" value ="https://www.shopclues.com/"></parameter>
+   <parameter name = "item" value ="Nike Shoes"></parameter>
+   <parameter name = "item2" value ="fasttrack watches"></parameter>
+   <parameter name = "item3" value ="Apple Phones"></parameter>
+   <parameter name = "item4" value ="Badminton Raquet"></parameter>
+    <classes>
+      <class name="test.TC003_ResultCount"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
