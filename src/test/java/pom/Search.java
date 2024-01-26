@@ -17,8 +17,7 @@ public class Search {
 	@FindBy(xpath = "//h2")
 	WebElement firstItem;
 	
-	@FindBy(xpath = "//h2")
-	List results;
+
 	
 	
 	
